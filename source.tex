@@ -1,7 +1,7 @@
 %-------------------------
 % Resume in Latex
-% Author : Wilmer Gonzalez
-% Based on: Sourabh Bajaj repo
+% Author : Levi Huang
+% Based on: Wilmer Gonzalez template (originally Sourabh Bajaj repo)
 % License : MIT
 %------------------------
 
@@ -90,49 +90,49 @@
 % COLOR THEMES SELECTION
 
 % For Light theme un-comment this and comment the Dark theme section below
-\tcbset{
-  colback=gray!17!white,
-  colframe=gray!17!white
-}
-\definecolor{pageLinkTextColor}{HTML}{57a2ff}
-\definecolor{pageTextColor}{HTML}{262626}
-\colorlet{textcolor}{pageTextColor}
-\colorlet{urlcolor}{pageLinkTextColor}
-\newcommand{\otherThemeRef}{\href{https://github.com/wilmeragsgh/resume/raw/master/wilmer_gonzalez_dark.pdf}{ Dark \color{urlcolor}{\faicon{lightbulb-o}}}}
-\newcommand{\latestVersion}{\href{https://github.com/wilmeragsgh/resume/raw/master/wilmer_gonzalez_light.pdf}{Latest \color{urlcolor}{\faicon{refresh}}}}
+% \tcbset{
+%   colback=gray!17!white,
+%   colframe=gray!17!white
+% }
+% \definecolor{pageLinkTextColor}{HTML}{57a2ff}
+% \definecolor{pageTextColor}{HTML}{262626}
+% \colorlet{textcolor}{pageTextColor}
+% \colorlet{urlcolor}{pageLinkTextColor}
+% \newcommand{\otherThemeRef}{\href{https://github.com/CreateWithLevi/resume/raw/master/Levi-Huang-Resume-Dark.pdf}{ Dark \color{urlcolor}{\faicon{lightbulb-o}}}}
+% \newcommand{\latestVersion}{\href{https://github.com/CreateWithLevi/resume/raw/master/Levi-Huang-Resume-Light.pdf}{Latest \color{urlcolor}{\faicon{refresh}}}}
 
-\begin{document}
+% \begin{document}
 % ---
 
 % For Dark theme un-comment this and comment the Light theme section above
-% \tcbset{
-%   colback=black!50!gray,
-%   colframe=black!50!gray,
-%   coltext=white!80!gray
-% }
-% \definecolor{pageBackgroundColor}{HTML}{171717}
-% \definecolor{pageTextColor}{HTML}{d4d4d4}%d4d4d4
-% \definecolor{pageLinkTextColor}{HTML}{57a2ff}
-% % \colorlet{textcolor}{white!80!gray}
-% \colorlet{textcolor}{pageTextColor}
-% % \colorlet{backgroundcolor}{black!30!gray}
-% \colorlet{backgroundcolor}{pageBackgroundColor}
-% \colorlet{urlcolor}{pageLinkTextColor}
-% \AtBeginDocument{\color{textcolor}}
-% \newcommand{\otherThemeRef}{\href{https://github.com/wilmeragsgh/resume/raw/master/wilmer_gonzalez_light.pdf}{Light \color{urlcolor}{\faicon{lightbulb-o}}}}
-% \newcommand{\latestVersion}{\href{https://github.com/wilmeragsgh/resume/raw/master/wilmer_gonzalez_dark.pdf}{Latest \color{urlcolor}{\faicon{refresh}}}}
+\tcbset{
+  colback=black!50!gray,
+  colframe=black!50!gray,
+  coltext=white!80!gray
+}
+\definecolor{pageBackgroundColor}{HTML}{171717}
+\definecolor{pageTextColor}{HTML}{d4d4d4}%d4d4d4
+\definecolor{pageLinkTextColor}{HTML}{57a2ff}
+% \colorlet{textcolor}{white!80!gray}
+\colorlet{textcolor}{pageTextColor}
+% \colorlet{backgroundcolor}{black!30!gray}
+\colorlet{backgroundcolor}{pageBackgroundColor}
+\colorlet{urlcolor}{pageLinkTextColor}
+\AtBeginDocument{\color{textcolor}}
+\newcommand{\otherThemeRef}{\href{https://github.com/CreateWithLevi/resume/raw/master/Levi-Huang-Resume-Light.pdf}{Light \color{urlcolor}{\faicon{lightbulb-o}}}}
+\newcommand{\latestVersion}{\href{https://github.com/CreateWithLevi/resume/raw/master/Levi-Huang-Resume-Dark.pdf}{Latest \color{urlcolor}{\faicon{refresh}}}}
 
-% \begin{document}
-% \pagecolor{backgroundcolor}
+\begin{document}
+\pagecolor{backgroundcolor}
 % ---
 
 % HEADING
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\Large Levi Huang} \href{https://jlstudio.xyz/Levi}{\color{urlcolor} \faicon{link}}\\
+  \textbf{\Large Levi Huang} \href{https://jlstudio.xyz/Levi}{\color{urlcolor} \faicon{link}} & \textsl{\small \latestVersion} /\textsl{\small \otherThemeRef}\\
 Full-stack Engineer & \href{mailto:create.with.levi@gmail.com}{\color{urlcolor}{\faicon{envelope}} \color{textcolor} create.with.levi} \\
   \textsl{Berlin, Germany} & \href{https://linkedin.com/in/li-wei-huang}{ \color{urlcolor}{\faicon{linkedin}} \color{textcolor} li-wei-huang} \\
   \textsl{+49 151 29542557} & \href{https://github.com/CreateWithLevi}{  \color{urlcolor}{\faicon{github}} \color{textcolor} CreateWithLevi}\\
-% \href{maybe}{\color{urlcolor}{\faicon{film}} \underline{\textsl{video introduction}}}
+  % \href{maybe}{\color{urlcolor}{\faicon{film}} \underline{\textsl{video introduction}}}
 \end{tabular*}
 % ---
 

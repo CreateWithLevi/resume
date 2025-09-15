@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(/Users/levi/Library/Mobile Documents/iCloud~md~obsidian/Documents/Levi PKM/00 Inbox/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
