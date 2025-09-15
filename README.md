@@ -1,6 +1,6 @@
-# AI-Powered Resume Generator
+# Professional Resume Template
 
-Transform your markdown resume into professional LaTeX format using AI editors like Cursor or Claude Code. No more manual copy-paste or LaTeX syntax learning required!
+A clean, modern LaTeX resume template optimized for software engineers. Features dual themes and leverages AI tools for efficient content formatting and customization.
 
 ## How It Works
 
@@ -147,5 +147,6 @@ Format is MIT but all the resume data is owned by Levi Huang.
 
 ## Acknowledgments
 
-- To [@sb2nov](https://github.com/sb2nov/) for the initial code!
-- And to others contributors listed [here](https://github.com/sb2nov/resume/graphs/contributors)
+- Based on the excellent LaTeX template by [@wilmeragsgh](https://github.com/wilmeragsgh/resume)
+- Original template structure from [@sb2nov](https://github.com/sb2nov/resume) 
+- And to other contributors listed [here](https://github.com/sb2nov/resume/graphs/contributors)
